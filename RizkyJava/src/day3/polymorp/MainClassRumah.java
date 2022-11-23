@@ -1,6 +1,6 @@
 package day3.polymorp;
 
-public class MainRumah {
+public class MainClassRumah {
 
 	public static void main(String[] args) {
 		//overloading
