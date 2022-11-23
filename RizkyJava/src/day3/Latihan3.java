@@ -9,7 +9,7 @@ public class Latihan3 {
 		
 		System.out.print("Input Nama ? ");
 		String Nama = kb.nextLine();
-		String[]aNama=Nama.split(" ");
+		String[]aNama = Nama.split(" ");
 		
 		for(int i=0;i<aNama.length;i++) {
 			//System.out.println(aNama[i]);
