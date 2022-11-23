@@ -3,29 +3,26 @@ package day3;
 public class ArrayEx {
 
 	public static void main(String[] args) {
-		//deklar array
 		String[]nama = new String[5];
-		String[]kota = {"Semarang","Banten","Surabaya"};
+		String[]kota =  {"A","B","C"};
 		
-		//isi
-		nama[0] = "Aldo";
-		//nama[5] = "wawan";
-		for(int i=0;i<nama.length;i++) {
-			nama[i] = "isi " + i;
+		nama[0]="Rizky";
+		
+		for(int index=0;index<kota.length;index++)
+		{
+			System.out.println("kota ke- "+index );
+			System.out.println(kota[index]);
+			
 		}
 		
-		//panggil
-		for(int i=0;i<kota.length;i++) {
-			System.out.println(kota[i]);
-		}
-		System.out.println();
-		for(int i=0;i<nama.length;i++) {
-			System.out.println(nama[i]);
+		for(int index=0;index<nama.length;index++)
+		{
+			System.out.println("Nama ke- "+index );
+			System.out.println(nama[index]);
+			
+			
 		}
 		
-		System.out.println(nama[0]);
-		//System.out.println(nama[6]);
-		System.out.println(kota[0]);
 	}
 
 }
